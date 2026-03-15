@@ -1,6 +1,12 @@
 import os
+import sys
 
-DIR = '/Volumes/UserData/Projects/NotebookLM_Antigravity/Meeting Prep - Rakuten'
+# DIR is always the folder this script lives in — safe to copy to any Meeting Prep folder.
+DIR = os.path.dirname(os.path.abspath(__file__))
+
+# Derive company name from the folder name automatically
+folder_name = os.path.basename(DIR)
+COMPANY_NAME = folder_name.replace('Meeting Prep - ', '').strip() or 'Meeting Prep'
 
 def read_file(path):
     try:
@@ -22,7 +28,7 @@ template = """<!DOCTYPE html>
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Meeting Prep - Rakuten</title>
+    <title>Meeting Prep - {{COMPANY_NAME}}</title>
     <!-- Tailwind CSS -->
     <script src="https://cdn.tailwindcss.com"></script>
     <script>
@@ -121,7 +127,7 @@ template = """<!DOCTYPE html>
     <header class="glass mx-6 mt-6 p-8 rounded-xl flex flex-col md:flex-row justify-between items-center relative overflow-hidden">
         <div class="absolute right-0 top-0 w-64 h-64 bg-accent/10 rounded-full filter blur-3xl -z-10 translate-x-1/2 -translate-y-1/4"></div>
         <div class="z-10 mb-6 md:mb-0">
-            <h1 class="text-4xl font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-blue-400 to-accent mb-2">Rakuten Mobile</h1>
+            <h1 class="text-4xl font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-blue-400 to-accent mb-2">{{COMPANY_NAME}}</h1>
             <p class="text-gray-400 text-lg">Meeting Preparation & Intelligence Dashboard</p>
         </div>
         <div class="glass p-4 rounded-lg flex items-center space-x-4 z-10 w-full md:w-auto">
@@ -436,6 +442,7 @@ template = template.replace('{{INTEL_MD}}', intel)
 template = template.replace('{{RESEARCH_MD}}', research)
 template = template.replace('{{QUIZ_MD}}', quiz)
 template = template.replace('{{FLASHCARDS_MD}}', flashcards)
+template = template.replace('{{COMPANY_NAME}}', COMPANY_NAME)
 
 with open(os.path.join(DIR, 'index.html'), 'w', encoding='utf-8') as f:
     f.write(template)
