@@ -1,111 +1,89 @@
-# Pre-Call Quiz: Rakuten Mobile 5G MiFi Meeting
+# Pre-Call Knowledge Quiz: Rakuten Mobile — 5G MiFi
 
----
-
-**Q1: Rakuten Mobile disrupted the global telecommunications hardware market in 2019 by launching what type of network?**
-
-A: A traditional legacy hardware-based 3G network.
-B: The world's first fully virtualized, cloud-native mobile network using Open RAN technology.
-C: A closed-source, single-vendor proprietary network.
-D: A fixed wireless-only home internet network.
-
+**Question 1:** Rakuten Mobile disrupted the telecommunications industry in 2019 by launching what type of network?
+A) A traditional legacy hardware-based 3G network
+B) The world's first fully virtualized, cloud-native mobile network using Open RAN technology
+C) A closed-source, single-vendor proprietary network
+D) A fixed wireless-only home internet network
 **ANSWER: B** — Rakuten Mobile launched the world's first end-to-end fully virtualized cloud-native mobile network based on Open RAN standards in 2019, separating hardware and software to drastically reduce equipment investment and operations costs.
 
 ---
 
-**Q2: In July 2025, Rakuten Mobile announced strategic partnerships to deploy its 5G SA mobile network. Which companies were selected?**
-
-A: Ericsson, Huawei, and ZTE
-B: Cisco, Nokia, and F5
-C: Juniper Networks, Microsoft, and Amazon
-D: NTT Docomo, SoftBank, and au
-
-**ANSWER: B** — For its 5G SA network, Rakuten selected Cisco (Mobile Packet Core), Nokia (cloud-native network functions), and F5 (security and traffic management).
+**Question 2:** Which three companies were announced as strategic partners to deploy Rakuten Mobile's 5G Standalone (SA) mobile network?
+A) Ericsson, Huawei, and ZTE
+B) Cisco, Nokia, and F5
+C) Juniper Networks, Microsoft, and Amazon
+D) NTT Docomo, SoftBank, and au
+**ANSWER: B** — For its 5G SA network, Rakuten Mobile selected Cisco for its Mobile Packet Core, Nokia for cloud-native network functions (CNFs), and F5 to enhance security and traffic management.
 
 ---
 
-**Q3: Which company was recently selected as Rakuten Mobile's nationwide 5G Open RAN radio provider?**
-
-A: Samsung
-B: Nokia
-C: Cisco
-D: Fuyu Precision Component Co., LTD
-
-**ANSWER: A** — Samsung was selected to supply Open RAN compliant 5G radios supporting Rakuten's nationwide mobile network.
+**Question 3:** Which company was selected as Rakuten Mobile's nationwide 5G Open RAN radio provider in Japan to supply low-band (700MHz), mid-band (1.7GHz), and Massive MIMO radios?
+A) Samsung
+B) Nokia
+C) Cisco
+D) Tejas Networks
+**ANSWER: A** — Samsung was selected to supply Open RAN compliant 5G radios to support Rakuten's nationwide mobile network, enabling seamless integration in a multi-vendor environment.
 
 ---
 
-**Q4: What critical low-band frequency does the new Rakuten WiFi Pocket 5G support for indoor and rural coverage?**
-
-A: 28 GHz (mmWave)
-B: 3.8 GHz Band
-C: 700 MHz (Platinum Band)
-D: 1.7 GHz Band
-
-**ANSWER: C** — The Rakuten WiFi Pocket 5G supports the 700 MHz "Platinum Band" for better indoor and rural signal penetration.
+**Question 4:** What is the theoretical maximum 5G download speed and connection capacity for the newly announced Rakuten WiFi Pocket 5G?
+A) 150 Mbps download; up to 16 devices
+B) 400 Mbps download; up to 10 devices
+C) 1 Gbps download; up to 64 devices
+D) 2.14 Gbps download; up to 24 devices
+**ANSWER: D** — The new flagship Rakuten WiFi Pocket 5G boasts a theoretical maximum 5G download speed of 2.14 Gbps and can connect up to 24 devices simultaneously.
 
 ---
 
-**Q5: What is the theoretical maximum 5G download speed and simultaneous connections for the Rakuten WiFi Pocket 5G?**
-
-A: 150 Mbps; 16 devices
-B: 400 Mbps; 10 devices
-C: 1 Gbps; 64 devices
-D: 2.14 Gbps; 24 devices
-
-**ANSWER: D** — The Rakuten WiFi Pocket 5G has theoretical 2.14 Gbps 5G download speed and supports up to 24 simultaneous connections.
+**Question 5:** What critical low-band frequency does the Rakuten WiFi Pocket 5G support that significantly improves indoor and rural coverage?
+A) 28 GHz (mmWave)
+B) 3.8 GHz Band
+C) 700 MHz (Platinum Band)
+D) 1.7 GHz Band
+**ANSWER: C** — The Rakuten WiFi Pocket 5G supports the 700 MHz "Platinum Band," which provides better signal penetration for indoor and rural coverage, a key piece of Rakuten's 5G strategy.
 
 ---
 
-**Q6: Which Japanese carrier offers the "5G Speed Wi-Fi" lineup with hardware by ZTE and Huawei?**
-
-A: SoftBank
-B: NTT Docomo
-C: au (KDDI)
-D: Rakuten Mobile
-
-**ANSWER: C** — au (KDDI) offers the "5G Speed WiFi" lineup, relying on OEM hardware from ZTE and Huawei.
+**Question 6:** What aggressive pricing strategy does Rakuten Mobile rely on to sell mobile routers like the Rakuten WiFi Pocket Platinum and WiFi Pocket 5G?
+A) Bundling the device with a free television
+B) Offering the device for ¥1 when signing up for a new eligible plan
+C) Charging a premium ¥50,000 price but offering free data for life
+D) Only renting devices for $3 to $7 per day
+**ANSWER: B** — Rakuten Mobile relies heavily on device subsidies, frequently running campaigns where mobile routers are discounted to ¥1 for customers signing up for the Rakuten SAIKYO Plan.
 
 ---
 
-**Q7: What aggressive pricing strategy does Rakuten Mobile use to sell devices like the WiFi Pocket 5G?**
-
-A: Bundling the device with a free television
-B: Offering the device for ¥1 with new plan signup
-C: Charging a premium ¥50,000 but offering free data for life
-D: Daily device rentals at $3–7/day
-
-**ANSWER: B** — Rakuten heavily subsidizes devices, offering them for ¥1 when customers sign up for a new Rakuten SAIKYO Plan.
+**Question 7:** According to CIAJ, what is the forecasted value of the Japanese router market by fiscal year 2030?
+A) ¥128.9 billion
+B) ¥134.4 billion
+C) ¥4.6938 trillion
+D) ¥3.2513 trillion
+**ANSWER: B** — The CIAJ projects the Japanese router market will grow from ¥128.9 billion in FY2025 to ¥134.4 billion by FY2030, driven by corporate DX initiatives, generative AI adoption, and increased data traffic.
 
 ---
 
-**Q8: Per the CIAJ forecast, what is the projected value of Japan's router market by FY2030?**
-
-A: ¥128.9 billion
-B: ¥134.4 billion
-C: ¥4.6938 trillion
-D: ¥3.2513 trillion
-
-**ANSWER: B** — The Japanese router market is projected to grow from ¥128.9B (FY2025) to ¥134.4B by FY2030.
+**Question 8:** In the Japanese competitive landscape, which carrier offers the "5G Speed Wi-Fi" lineup utilizing hardware by OEMs like ZTE and Huawei?
+A) SoftBank
+B) NTT Docomo
+C) au (KDDI)
+D) Rakuten Mobile
+**ANSWER: C** — au (KDDI) provides the "5G Speed Wi-Fi" lineup, which relies on mobile router hardware manufactured by ZTE and Huawei.
 
 ---
 
-**Q9: What SIM technology does the new Rakuten WiFi Pocket 5G use vs. the older Platinum model?**
-
-A: nanoSIM
-B: microSIM
-C: eSIM (embedded SIM)
-D: standard SIM
-
-**ANSWER: C** — The WiFi Pocket 5G uses eSIM, while the older Platinum uses a physical nanoSIM.
+**Question 9:** Who serves as the Co-CEO and Chief Technology Officer (CTO) of Rakuten Mobile, and is also President of Rakuten Symphony?
+A) Kazuhiro Suzuki
+B) Shunsuke Yazawa
+C) Hiroshi Mikitani
+D) Sharad Sriwastawa
+**ANSWER: D** — Sharad Sriwastawa serves as Co-CEO and CTO of Rakuten Mobile, and is also President of Rakuten Symphony, playing a key role in the company's network and technology strategy.
 
 ---
 
-**Q10: Which Rakuten business unit white-labels and sells Rakuten's telecom OS globally, creating MiFi bundling opportunities?**
-
-A: Rakuten Turbo
-B: Rakuten Drive
-C: Rakuten Symphony
-D: Rakuten Ichiba
-
-**ANSWER: C** — Rakuten Symphony sells its Symworld telecom OS globally, opening adjacent opportunities to bundle 5G MiFi hardware for international operators.
+**Question 10:** Unlike the older Rakuten WiFi Pocket Platinum which uses a physical nanoSIM, what modern SIM technology does the new Rakuten WiFi Pocket 5G utilize?
+A) microSIM
+B) standard SIM
+C) eSIM (embedded SIM)
+D) dual nanoSIM
+**ANSWER: C** — While the current 4G LTE Rakuten WiFi Pocket Platinum requires a physical nanoSIM, the new Rakuten WiFi Pocket 5G utilizes modern eSIM technology.

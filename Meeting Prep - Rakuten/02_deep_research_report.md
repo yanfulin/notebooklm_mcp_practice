@@ -1,108 +1,74 @@
-# Japan Telecommunications Industry: 5G MiFi Deep Research Report (2025–2030)
+# Deep Research Report: Macro Trends Affecting Rakuten Mobile's 5G MiFi Industry (2026–2028)
 
-*Based on Rakuten Mobile's cloud-native 5G network ecosystem*
+## 1. Top 10 Most Important Sources
 
----
-
-## 1. Japan 5G Market Context
-
-The Japanese telecom market is undergoing a significant transformation driven by:
-- **5G SA (Standalone) rollout** across all major carriers (2025–2026)
-- **Generative AI & enterprise DX** driving data traffic growth
-- **Platinum Band (700 MHz)** commercialization improving nationwide coverage
-- **Open RAN / cloud-native architectures** disrupting traditional vendor lock-in
-
-Japan has four major MNOs: **NTT Docomo, SoftBank, au (KDDI), and Rakuten Mobile** — and the Pocket WiFi / MiFi category remains highly relevant for both consumers and enterprise.
-
----
-
-## 2. Rakuten Mobile's 5G Technology Architecture
-
-### Cloud-Native Open RAN
-Rakuten launched the world's first fully virtualized, cloud-native mobile network in 2019 using Open RAN. This means:
-- **Software and hardware are fully separated**
-- **Multi-vendor ecosystem** (no single vendor lock-in)
-- **AI-driven operations** through Rakuten Symphony's Symworld platform
-
-### 5G SA Core Network Partners (July 2025)
-| Partner | Role |
-|---------|------|
-| **Cisco** | AI-driven Mobile Packet Core (5G core backbone) |
-| **Nokia** | CNFs: authentication, user data mgmt, IMS voice, signaling |
-| **F5** | Security CNFs: edge firewall, DDoS, Gi/N6 LAN functions |
-| **Samsung** | Nationwide Open RAN 5G radio (low-band, mid-band, Massive MIMO) |
-| **Rakuten Symphony** | Cloud-Native Platform (CNP) & Storage (CNS) for deploying CNFs |
-
-### Network Frequencies
-- **Sub-6 GHz**: 5G data
-- **700 MHz**: Platinum Band (indoor/rural coverage) — commercialized 2024
-- **4G LTE**: Fallback via au/KDDI roaming agreement
+| Source Name | Why It Matters |
+| :--- | :--- |
+| **CIAJ Mid-Term Demand Forecast (FY2025–FY2030)** | Provides critical quantitative market sizing, growth rates, and CAGR projections for routers, mobile handsets, and telecom equipment in Japan. |
+| **Rakuten seed_profile.md (Company & 5G MiFi Profile)** | Details technical specs of the newly launched WiFi Pocket 5G device (2.14 Gbps speed, eSIM support, 24-device capacity) alongside competitive market context. |
+| **Rakuten Mobile Selects Cisco, Nokia and F5 as Partners** | Outlines the technological core of Rakuten's 5G SA network — AI-driven, cloud-native operations crucial for high-speed MiFi connectivity. |
+| **Samsung 5G Open RAN Radio Provider** | Confirms hardware backbone of Rakuten's Open RAN 5G network, specifically the 700 MHz "Platinum Band" and Massive MIMO radios. |
+| **Private 5G and the Wireless Edge** | Showcases the growing B2B market for Private 5G and how edge computing + 5G/Wi-Fi convergence will drive enterprise router demand. |
+| **Rakuten Symphony & Tejas Networks Partnership** | Highlights global export potential of Rakuten's interoperable 5G solutions, indicating adjacent hardware bundling opportunities in international markets. |
+| **Japan Wireless 2025 Pricing Guide** | Illustrates inbound tourism and rental market dynamics for Pocket Wi-Fi in Japan, highlighting demand for "Truly Unlimited" vs. FUP data plans. |
+| **Rakuten WiFi Pocket Platinum Product Page** | Reveals Rakuten's aggressive hardware acquisition strategy via deep subsidies (¥1 device signup campaigns). |
+| **Rakuten Mobile Press Releases 2026** | Demonstrates network operations maturity — Level 4 autonomy for RAN energy efficiency, advancing AI-vRAN with Intel. |
+| **Rakuten Mobile Press Releases 2024** | Documents key milestones underpinning current 2026 strategy: surpassing 8M subscribers, initial commercial launch of 700 MHz Platinum Band. |
 
 ---
 
-## 3. Rakuten 5G MiFi Device Roadmap
+## 2. Summary of Key Themes
 
-### Timeline
-- **2020**: Rakuten WiFi Pocket (first device, 4G LTE)
-- **2023–2025**: Rakuten WiFi Pocket 2C → WiFi Pocket Platinum
-- **2025**: Rakuten Turbo 5G (home CPE)
-- **March 2026**: Rakuten WiFi Pocket 5G (first 5G MiFi)
+### Technology Direction
+- 5G Standalone (SA) networks built on fully virtualized, Open RAN architectures will mature over the next two years.
+- Rakuten is integrating AI-driven operations (Level 4 autonomy achieved) and cloud-native network functions (CNFs) via Cisco, Nokia, and F5.
+- Physical nanoSIMs transitioning to embedded eSIMs — seen in the new Rakuten WiFi Pocket 5G.
+- 700 MHz "Platinum Band" is the critical technological baseline for overcoming indoor and rural signal penetration.
 
-### Device Comparison Table
-| Feature | WiFi Pocket 5G | WiFi Pocket Platinum | Turbo 5G |
-|---------|---------------|---------------------|----------|
-| Form Factor | Portable MiFi | Portable MiFi | Home CPE |
-| Standard | 5G Sub-6 + LTE | 4G LTE | 5G |
-| 700MHz Band | ✅ Yes | ✅ Yes | N/A |
-| SIM Type | eSIM | nanoSIM | N/A |
-| Max Speed (DL) | 2.14 Gbps (5G) / 400 Mbps (LTE) | 150 Mbps | >1 Gbps |
-| Max Connections | 24 (Wi-Fi) | 16 (Wi-Fi) + 1 (USB) | Multiple |
-| Battery | N/A (TBD) | 2,440 mAh (~10 hrs) | Plug-in |
-| Weight | TBD | ~103g | Tabletop |
-| Price | ¥13,810 (¥1 campaign) | ¥10,820 (¥1 campaign) | Subscription |
-| OEM | TBD | Fuyu Precision Component | TBD |
+### Market Dynamics
+- Japanese telecom equipment market experiencing moderate, steady growth fuelled by corporate Digital Transformation (DX), telework, video streaming, and Generative AI.
+- Consumer rental market for Pocket Wi-Fi remains robust, particularly for groups and travellers, driven by reliability and security of dedicated MiFi vs. public Wi-Fi.
+- Enterprise sector: distinct shift toward hybrid connectivity combining Private 5G networks with existing corporate Wi-Fi infrastructures.
 
----
+### Regulatory Environment
+- Rakuten benefits from government NICT and NEDO funding for Beyond 5G/6G research and edge cloud technology.
+- Actively engaged in international standardization — signed GSMA Open Gateway MoU in 2026.
 
-## 4. Competitive Landscape: Japan 5G MiFi
-
-| Carrier | Products | OEM Hardware | Pricing Model |
-|---------|---------|-------------|---------------|
-| **NTT Docomo** | 5G Wi-Fi routers (Fujisoft FS050W, Sharp SH-54C) | Fujisoft, Sharp | Device purchase + plan |
-| **SoftBank** | Pocket WiFi 5G A501ZT (Y!mobile) | ZTE | Device + SIM plan |
-| **au (KDDI)** | Speed WiFi 5G lineup | ZTE, Huawei | Device + data plan |
-| **UQ WiMAX+5G** | Speed WiFi HOME 5G L13 | ZTE | Monthly subscription |
-| **Rakuten Mobile** | WiFi Pocket Platinum + WiFi Pocket 5G (March 2026) | Fuyu Precision / TBD | ¥1 device + plan |
+### Competitive Shifts
+- Fierce competition from NTT Docomo, SoftBank, and au (KDDI) with robust 5G router lineups backed by ZTE and Huawei.
+- Rakuten using disruptive pricing — subsidizing routers down to ¥1 — to rapidly acquire market share.
+- Expanding competition globally through Rakuten Symphony exporting telecom OS to overseas operators.
 
 ---
 
-## 5. Japan Telecom Equipment Market Forecast (CIAJ, 2025)
+## 3. Specific Data Points
 
-| Category | FY2025 | FY2030 | Growth Driver |
-|----------|--------|--------|---------------|
-| Total Telecom Equipment | ¥4,693.8B | — | +1.5% YoY |
-| Mobile Handsets/Terminals | ¥3,251.3B | ¥3,685.3B | 5G SA device replacement cycle |
-| **Routers** | **¥128.9B** | **¥134.4B** | Enterprise DX, 5G/Wi-Fi 7 adoption |
-
-Mobile terminal market projected to grow **15.6% from FY2024 to FY2030**, fueled by 5G SA device upgrades for both consumers and enterprise.
-
----
-
-## 6. Private 5G and Enterprise Opportunity
-
-The enterprise segment is rapidly adopting Private 5G for:
-- **Industrial IoT** (factories, warehouses, logistics)
-- **Campus connectivity** (branch offices, construction sites)
-- **Mission-critical applications** (low latency, high reliability)
-
-Rakuten Symphony's platform enables operators worldwide to deploy private 5G networks using Rakuten's cloud-native stack — creating export opportunities for hardware vendors.
+| Metric | Value |
+| :--- | :--- |
+| Japan Telecom Equipment Market (FY2025) | ¥4.6938 trillion (+1.5% YoY) |
+| Japan Telecom Equipment Market (FY2030) | ¥5.1307 trillion (1.7% CAGR) |
+| Japan Router Market (FY2025) | ¥128.9 billion (+1.5% YoY) |
+| Japan Router Market (FY2030) | ¥134.4 billion |
+| Consumer Mobile Terminal Demand (FY2025) | ¥3.2513 trillion |
+| Consumer Mobile Terminal Demand (FY2030) | ¥3.6853 trillion (+15.6%) |
+| Rakuten Subscriber Base (2025) | 8–10 million (crossed 8M in Oct 2024) |
+| Consumer Pocket Wi-Fi Rental (Japan, 2025) | $3–$7/day (standard long-term rentals) |
+| Rakuten WiFi Pocket 5G — Max Speed | 2.14 Gbps theoretical download |
+| Rakuten WiFi Pocket 5G — Simultaneous Connections | Up to 24 devices |
+| Rakuten WiFi Pocket 5G — Retail Price | ¥13,810 (~$92 USD) before ¥1 subsidy |
 
 ---
 
-## 7. Conclusions for Vendor Strategy
+## 4. Key Risks & Tailwinds for Rakuten's 5G MiFi Strategy
 
-1. **Japan's 5G MiFi market is entering its second generation** — the shift from 4G Pocket WiFi to 5G MiFi is accelerating in 2026.
-2. **Rakuten is the most technology-forward carrier**, offering the best partnership proof point for cloud-native 5G MiFi vendors.
-3. **OEM supply for 1-yen device programs requires scale** — cost efficiency and high-volume manufacturing are non-negotiable.
-4. **eSIM + 700 MHz support** are now baseline requirements for any device entering Japan's carrier market.
-5. **Rakuten Symphony's global footprint** creates a multiplier effect — winning Rakuten Japan = potential to enter 10+ global markets through their Symworld deployments.
+### ✅ Tailwinds
+
+- **The "Platinum Band" Advantage:** Full commercial rollout of the 700 MHz band will drastically improve indoor and rural network reliability — eliminating Rakuten's historical competitive disadvantage.
+- **Enterprise / Private 5G Boom:** Convergence of AI, edge computing, and 5G opens lucrative B2B avenues — IoT and automation demand uninterrupted, high-capacity connectivity.
+- **Global Export via Rakuten Symphony:** By exporting virtualized telecom software to international operators, Rakuten opens adjacent opportunities to bundle and export compatible 5G MiFi hardware globally.
+
+### ⚠️ Risks
+
+- **Hardware Subsidy Margin Compression:** Heavily discounting devices (¥13,810 for ¥1) to drive subscriber acquisition. If ARPU from flat-rate SAIKYO plans doesn't offset hardware losses, profitability is strained.
+- **eSIM Cannibalization:** eSIMs simplify carrier switching, potentially increasing churn. Single travellers increasingly opt for digital eSIMs on their phones over secondary physical Wi-Fi routers.
+- **Macroeconomic Headwinds:** Projected decline in telecom equipment exports due to intensifying global competition and concerns about global economic slowdowns.
